@@ -3,9 +3,9 @@
 
 $host = getenv("MYSQL_SERVICE_HOST");
 $port = getenv("MYSQL_SERVICE_PORT");
-$user = getenv("databaseuser");
-$pass = getenv("databasepassword");
-$db =   getenv("databasename");
+$user = getenv("MYSQL_USER");
+$pass = getenv("MYSQL_PASSWORD");
+$db =   getenv("MYSQL_DATABASE");
 
  
 echo  $host;
