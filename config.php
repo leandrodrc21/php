@@ -7,6 +7,13 @@ $user = getenv("databaseuser");
 $pass = getenv("databasepassword");
 $db =   getenv("databasename");
 
+ 
+echo  $host;
+echo  $port;
+echo  $user;
+echo  $pass;
+echo  $db;
+
 $con=mysqli_connect($host,$user,$pass,$db);
 
 if(!$con)
@@ -16,7 +23,7 @@ if(!$con)
 }
 else
 {
-	//echo("Connected");
+	echo("Connected");
 }
 
 
